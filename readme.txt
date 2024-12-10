@@ -1,15 +1,25 @@
-The columns in the data are as follows:
+# Title:
+## Description
+	Repository of a Data Science and Machine Learning projects which will predict the power output of a Turbine.
 
-Time - Hour of the day when readings occurred
-temperature_2m - Temperature in degrees Fahrenheit at 2 meters above the surface
-relativehumidity_2m - Relative humidity (as a percentage) at 2 meters above the surface
-dewpoint_2m - Dew point in degrees Fahrenheit at 2 meters above the surface
-windspeed_10m - Wind speed in meters per second at 10 meters above the surface
-windspeed_100m - Wind speed in meters per second at 100 meters above the surface
-winddirection_10m - Wind direction in degrees (0-360) at 10 meters above the surface (see notes)
-winddirection_100m - Wind direction in degrees (0-360) at 100 meters above the surface (see notes)
-windgusts_10m - Wind gusts in meters per second at 100 meters above the surface
-Power - Turbine output, normalized to be between 0 and 1 (i.e., a percentage of maximum potential output)
+	The goal is create a optimized regression model to ilustrate the algoritms involved on Machine Learning Techniques.
+
+
+## Structure of data
+
+
+### The columns in the data are as follows:
+
+- Time - Hour of the day when readings occurred
+- temperature_2m - Temperature in degrees Fahrenheit at 2 meters above the surface
+- relativehumidity_2m - Relative humidity (as a percentage) at 2 meters above the surface
+- dewpoint_2m - Dew point in degrees Fahrenheit at 2 meters above the surface
+- windspeed_10m - Wind speed in meters per second at 10 meters above the surface
+- windspeed_100m - Wind speed in meters per second at 100 meters above the surface
+- winddirection_10m - Wind direction in degrees (0-360) at 10 meters above the surface (see notes)
+- winddirection_100m - Wind direction in degrees (0-360) at 100 meters above the surface (see notes)
+- windgusts_10m - Wind gusts in meters per second at 100 meters above the surface
+- Power - Turbine output, normalized to be between 0 and 1 (i.e., a percentage of maximum potential output)
 
 Notes:
 	1) Likely many of these variables will not be very relevant. They are included here but do not need to be included in the final models.
